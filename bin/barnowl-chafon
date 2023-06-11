@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const BarnowlChafon = require('../lib/barnowlchafon.js');
+
+let barnowl = new BarnowlChafon();
+
+barnowl.addListener(BarnowlChafon.SerialListener, {});
+
+barnowl.on('raddec', (raddec) => {
+  console.log(raddec.toFlattened());
+});

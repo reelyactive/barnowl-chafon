@@ -1,0 +1,42 @@
+{
+  "name": "barnowl-chafon",
+  "homepage": "https://github.com/reelyactive/barnowl-chafon/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Collect ambient RAIN RFID data from Chafon readers.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "barnowl",
+    "Chafon",
+    "raddec"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnowlchafon.js",
+  "scripts": {
+    "start": "node bin/barnowl-chafon",
+    "forwarder": "node bin/barnowl-chafon-forwarder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-chafon.git"
+  },
+  "dependencies": {
+    "raddec": ">=0.4.3",
+    "serialport": "^10.5.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-chafon/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}
